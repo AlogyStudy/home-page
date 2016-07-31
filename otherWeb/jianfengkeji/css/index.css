@@ -1,0 +1,337 @@
+body{
+	position: relative;
+}
+#header{
+	height: 145px;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+	background: url(../images/header_bg.png) repeat-x;
+}
+#header .centerbox{
+	width: 980px;
+	margin: 0 auto;
+}
+#header .centerbox .logo{
+	float: left;
+	padding:24px 0 0 1px; 
+}
+#header .centerbox .phone{
+	float: right;
+	padding-top: 21px;
+	_height: 75px;
+	overflow: hidden;
+	_zoom:1;
+}
+#header .centerbox .phone .rexian{
+	height: 24px;
+	font: 12px/24px "微软雅黑","宋体";
+	color: #2B98D9;
+	padding-left: 34px;
+	background: url(../images/jingling1.png) no-repeat -173px -7px;
+	float: right;
+}
+#header .centerbox .phone .yuyue{
+	width: 95px;
+	height: 26px;
+	background: #FF9900;
+	font: 12px/26px "宋体";
+	text-align: center;
+	float: right;
+	margin-bottom: 25px;
+}
+#header .centerbox .phone .yuyue a:link,#header .centerbox .phone .yuyue a:visited{
+	text-decoration: none;
+	color: white;
+}
+#header .centerbox .nav ul{
+	list-style: none;
+	padding-top: 4px;
+}
+#header .centerbox .nav ul li{
+	position: relative;
+	float: left;
+	width: 120px;
+	height: 33px;
+	font: 12px/33px "微软雅黑","宋体";
+	text-align: center;
+}
+#header .centerbox .nav ul li a{
+	display: block;
+	width: 120px;
+	height: 33px;
+}
+#header .centerbox .nav ul li a:link,#header .centerbox .nav ul li a:visited{
+	color: #595959;
+	text-decoration: none;
+}
+#header .centerbox .nav ul li a:hover{
+	color: white;
+	background: #EE871C;
+}
+#header .centerbox .nav ul li .zicaidan{
+	position: absolute;
+	background: #FF6C00;
+	display: none;
+}
+#header .centerbox .nav ul li .zicaidan ul{
+	padding: 0;
+}
+#header .centerbox .nav ul li .zicaidan ul li{
+	float: none;
+	text-align: left;
+}
+#header .centerbox .nav ul li .zicaidan ul li a{
+	width: 110px;
+	padding-left: 10px;
+}
+#header .centerbox .nav ul li .zicaidan ul li.chang{
+	width: 170px;
+}
+#header .centerbox .nav ul li .zicaidan ul li.chang a{
+	width: 160px;
+}
+#header .centerbox .nav ul li .zicaidan ul li a:link,#header .centerbox .nav ul li .zicaidan ul li a:visited{
+	color: white;
+}
+#header .centerbox .nav ul li .zicaidan ul li a:hover{
+	background: #FF4200;
+}
+
+
+#banner{
+	position: relative;
+	top: -11px;
+	z-index: 0;
+	width: 100%;
+	overflow: hidden;
+}
+#banner .img1 ul{
+	list-style: none;
+	height: 400px;
+}
+#banner .img1 ul li{
+	width: 100%;
+	text-align: center;	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+#banner .img1{
+	background-color: pink;
+	height: 400px;
+}
+/*#banner .img1{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -550px;
+}*/
+
+
+#banner .img1 ul li.no1{
+	background: url(../images/1.png) repeat-x;
+}
+#banner .img1 ul li.no2{
+	display: none;
+	background: url(../images/banner2_bg.jpg) repeat-x;
+}
+#banner .img1 ul li.no3{
+	display: none;
+	background: url(../images/banner3_bg.jpg) repeat-x;
+}
+#banner .img1 ul li.no4{
+	display: none;
+	background: url(../images/banner4_bg.jpg) repeat-x;
+}
+#button{
+	position: relative;
+	width: 100%;
+}
+#button a{
+	display: block;
+	width: 46px;
+	height: 75px;
+}
+#button .left_button{
+	position: absolute;
+	bottom: 150px;
+	left:0;
+	width: 46px;
+	height: 75px;
+}
+#button .right_button{
+	position: absolute;
+	bottom:150px;
+	right: 0px;
+	width: 46px;
+	height: 75px;
+}
+#button .left_button a:link,#button .left_button a:visited{
+	background: url(../images/jingling1.png) no-repeat 0 -87px;
+}
+#button .left_button a:hover{
+	background: url(../images/jingling1.png) no-repeat -155px -87px;
+}
+#button .right_button a:link,#button .right_button a:visited{
+	background: url(../images/jingling1.png) no-repeat -54px -87px;
+}
+#button .right_button a:hover{
+	background: url(../images/jingling1.png) no-repeat -104px -87px;
+}
+#center2{
+	width: 980px;
+	margin: 0 auto;
+}
+#center2 .sort .top{
+	border-bottom: 1px solid #ccc;
+	width: 980px;
+	height: 38px;
+	position: relative;
+}
+#center2 .sort .top ul{
+	list-style: none;
+	position: absolute;
+	top:12px;
+}
+#center2 .sort .top ul li{
+	float: left;
+	width: 94px;
+	height: 33px;
+	margin-left: 3px;
+	font: 12px/33px "宋体";
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+#center2 .sort .top ul li.cur{
+	cursor: pointer;
+	height: 27px;
+	background: url(../images/jingling1.png) no-repeat -53px -7px;
+}
+#center2 .sort .top ul li{
+	cursor: pointer;
+	background: url(../images/jingling1.png) no-repeat -53px -46px;
+}
+#center2 .sort ul{
+	list-style: none;
+}
+#center2 .sort .bd ul.ul1  li{
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	font: 12px/20px "宋体";
+	padding-top: 40px;
+}
+#center2 .sort .bd ul.ul1 a{
+	display: block;
+	width: 100px;
+	padding-top: 66px;
+}
+#center2 .sort ul li a:link,#center2 .sort ul li a:visited{
+	color:#8E8E8E;
+	text-decoration: none; 
+}
+#center2 .sort ul li a:hover{
+	color: orange;
+}
+#center2 .sort .bd ul.ul1 li.cp_1 a:link,#center2 .sort .bd ul.ul1 li.cp_1 a:visited{
+	background: url(../images/jingling2.png) no-repeat -22px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_1 a:hover{
+	background-position: -152px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_2 a:link,#center2 .sort .bd ul.ul1 li.cp_2 a:visited{
+	background: url(../images/jingling2.png) no-repeat -274px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_2 a:hover{
+	background-position: -404px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_3 a:link,#center2 .sort .bd ul.ul1 li.cp_3 a:visited{
+	background: url(../images/jingling2.png) no-repeat -540px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_3 a:hover{
+	background-position: -670px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_4 a:link,#center2 .sort .bd ul.ul1 li.cp_4 a:visited{
+	background: url(../images/jingling2.png) no-repeat -795px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_4 a:hover{
+	background-position: -925px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_5 a:link,#center2 .sort .bd ul.ul1 li.cp_5 a:visited{
+	background: url(../images/jingling2.png) no-repeat -1058px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_5 a:hover{
+	background-position: -1188px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_6 a:link,#center2 .sort .bd ul.ul1 li.cp_6 a:visited{
+	background: url(../images/jingling2.png) no-repeat -1318px -2px;
+}
+#center2 .sort .bd ul.ul1 li.cp_6 a:hover{
+	background-position: -1448px -2px;
+}
+#center2 .sort .ul2{
+	display: none;
+}
+#center2 .sort .bd ul.ul2 li{
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	font: 12px/20px "宋体";
+	padding-top: 40px;
+}
+#center2 .sort .bd ul.ul2 a{
+	display: block;
+	width: 130px;
+	padding-top: 66px;
+}
+#center2 .sort .bd ul.ul2 li.al_1 a{
+	background: url(../images/jingling1.png) no-repeat -70px -358px;
+}
+#center2 .sort .bd ul.ul2 li.al_2 a{
+	background: url(../images/jingling1.png) no-repeat -70px -434px;
+}
+#center2 .sort .bd ul.ul2 li.al_3 a{
+	background: url(../images/jingling1.png) no-repeat -70px -507px;
+}
+#center2 .sort .bd ul.ul2 li.al_4 a{
+	background: url(../images/jingling1.png) no-repeat -70px -580px;
+}
+#center2 .sort .bd ul.ul2 li.al_5 a{
+	background: url(../images/jingling1.png) no-repeat -78px -652px;
+}
+#center2 .sort .bd ul.ul2 li.al_6 a{
+	background: url(../images/jingling1.png) no-repeat -70px -720px;
+}
+#footer{
+	margin-top:40px;
+	width: 100%;
+	height: 40px;
+	background: url(../images/footer_bg.png) repeat-x;
+}
+#footer .center3 ul{
+	list-style: none;
+	width: 546px;
+	margin: 0 auto;
+}
+#footer .center3 ul li{
+	float: left;
+	font: 12px/40px "宋体";
+}
+#footer .center3 ul li a{
+	border-right: 1px solid white;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#footer .center3 ul li a.xx{
+	border: none;
+}
+#footer .center3 ul li a:link,#footer .center3 ul li a:visited{
+	color: white;
+	text-decoration: none;
+}

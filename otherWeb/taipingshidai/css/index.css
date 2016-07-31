@@ -1,0 +1,188 @@
+body{
+	background:#210A14;
+}
+.banxin{
+	width:1000px;
+	margin:0 auto;
+	position: relative;
+}
+#header{
+	position: absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:112px;
+	background: url(../images/header.png) no-repeat center top;
+	z-index:999;
+}
+#header .banxin .logo h3{
+	position: absolute;
+	top:0;
+	left:394px;
+	width:242px;
+	height:269px;
+	background:url(../images/icons.png) no-repeat -2px -5px;
+	text-indent:-9999px;
+}
+#header .banxin .nav{
+	position: absolute;
+	left:94px;
+	top:20px;
+	z-index:998;
+}
+
+#header .banxin .nav ul li{
+	float: left;
+	width:106px;
+	height:44px;
+}
+#header .banxin .nav ul li.no3{
+	margin-right:200px;
+}
+#header .banxin .nav ul li a{
+	display: block;
+	width:106px;
+	height:44px;
+	text-decoration: none}
+#header .banxin .nav ul li a:link,#header .banxin .nav ul li a:visited{
+	font:14px/44px "微软雅黑";
+	color:white;
+	text-align: center;
+}
+#header .banxin .nav ul li a:hover{
+	background:url(../images/icons.png) no-repeat -250px -5px;
+}
+#banner{
+	z-index:1000;
+}
+#huxi{
+	width:100%;
+	height:566px;
+	position: absolute;
+ 
+}
+#huxi .tuul{
+	list-style: none;
+}
+#huxi .tuul li{
+	position: absolute;
+	left:0;
+	top:49px;
+	width:100%;
+	height:566px;
+	background:url(../images/banner1.jpg) no-repeat center top;
+	display: none;
+}
+#huxi .tuul li.no1{
+	display: block;
+}
+#huxi .tuul li.no2{
+	background-image:url(../images/banner2.jpg);
+}
+#huxi .tuul li.no3{
+	background-image:url(../images/banner3.jpg);
+}
+#huxi .anniu .leftbut{
+	position: absolute;
+	left:0;
+	top:240px;
+	width:62px;
+	height:96px;
+	background:url(../images/icons.png) no-repeat -258px -82px;
+	z-index:1001;
+	cursor: pointer;
+}
+#huxi .anniu .rightbut{
+	position: absolute;
+	right:0;
+	top:240px;
+	width:62px;
+	height:96px;
+	background:url(../images/icons.png) no-repeat -356px -82px;
+	z-index:1001;
+	cursor: pointer;
+}
+
+
+#lanmu{
+	position: absolute;
+	left:231px;
+	top:468px;
+	width:540px;
+	height:133px;
+	z-index:1009;
+}
+#lanmu ul li{
+	float: left;
+	width:180px;
+	height:133px;
+	opacity:0.6;
+	text-align: center;
+	padding-top:34px;
+	position: relative;
+	cursor: pointer;
+}
+#lanmu ul li img{
+	width:160px;
+	height:90px;
+}
+#lanmu ul li.cur{
+	opacity:1;
+	width:180px;
+	height:133px;
+	background:url(../images/icons.png) no-repeat -20px -292px;
+}
+#lanmu ul li a.biaoti{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	font:12px/34px "微软雅黑";
+	color:white;
+	text-align:center;
+	display: none;
+}
+#lanmu ul li a{
+	text-decoration: none;
+}
+
+#lanmu ul li.cur a.biaoti{
+	display: block;
+}
+#heitiao{
+	position: absolute;
+	top:497px;
+	width:100%;
+	height:109px;
+	background:url(../images/heitiao.png) no-repeat center top;
+	z-index:1004;
+}
+
+#footer{
+	position: absolute;
+	top:615px;
+	width:100%;
+	height:142px;
+	background:url(../images/footer_bg.png) no-repeat center top;
+	padding-top: 25px;
+}
+#footer .banxin .footernav ul{
+	width:373px;
+	margin:0 auto;
+	overflow: hidden;
+}
+#footer .banxin .footernav ul li{
+	float: left;
+	margin-right:17px;
+	
+}
+#footer .banxin .footernav ul li a{
+	text-decoration: none;
+	font:12px/25px "微软雅黑";
+	color:white;
+}
+#footer .banxin .copyright p{
+	font:12px/25px "微软雅黑";
+	color:white;
+	text-align: center;
+}

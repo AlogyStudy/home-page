@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/global.css">
+
+	<!--[if lte IE 6]>
+	<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script type="text/javascript">
+		DD_belatedPNG.fix('#header .centerbox .logo .img,#header .centerbox .phone .rexian,#button .left_button a:link,#button .left_button a:visited,#button .left_button a:hover,#button .right_button a:link,#button .right_button a:visited,#button .right_button a:hover,#center2 .sort .top ul li.cp,#center2 .sort .top ul li.al,#center2 .sort .top ul li.pj,#center2 .sort .chanpin ul li.cp_1 a:link,#center2 .sort .chanpin ul li.cp_1 a:visited,#center2 .sort .chanpin ul li.cp_2 a:link,#center2 .sort .chanpin ul li.cp_2 a:visited,#center2 .sort .chanpin ul li.cp_3 a:link,#center2 .sort .chanpin ul li.cp_3 a:visited,#center2 .sort .chanpin ul li.cp_4 a:link,#center2 .sort .chanpin ul li.cp_4 a:visited,#center2 .sort .chanpin ul li.cp_5 a:link,#center2 .sort .chanpin ul li.cp_5 a:visited,#center2 .sort .chanpin ul li.cp_6 a:link,#center2 .sort .chanpin ul li.cp_6 a:visited');
+	</script>
+	<![endif]-->
+	
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/dong.js"></script>
+
+	<script type="text/javascript">
+		window.onload = function(){
+			lunbo();
+			xuanxiangka();
+		}
+	</script>
+
+<style id="qb_dict_style" type="text/css"> 
+#dict__tip {
+	position: absolute;
+	visibility: hidden;
+	z-index: 50000;
+	overflow: visible;
+}
+#dict__tip {
+	border: 3px solid #2e9dff;
+	padding: 0 12px 10px 12px;
+	font-size: 12px;
+	min-width: 215px;
+	max-width: 393px;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2)
+}
+#dict__tip_translate_result {
+	display:block;
+	text-align:left;
+	border: none;
+	background: none
+}
+#dict__tip_translate_result span {
+	margin: 0px;
+	padding: 0px;
+	line-height: 22px;
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	color: #333333
+}
+#dict__tip_dict_info {
+	border: none;
+	background: none;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	font-family: Microsoft YaHei, Tahoma, NSimsun, Simsun, sans-serif
+}
+#dict__tip_dict_info .dict-copyright {
+	color: #999999;
+	position: absolute;
+	left: 0px;
+	top: 0px
+}
+#dict__tip_dict_info .dict-link {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#dict__tip_dict_info #dict__tip_translate_link {
+	padding-left: 10px;
+}
+#dict__tip_dict_info .dict-link a {
+	color: #0066cc;
+	text-decoration: none;
+}
+#dict__tip_dict_info .dict-link a:hover {
+	text-decoration: underline;
+}
+</style>
+</head>
+<body>
+	<div id="header">
+		<div class="centerbox">
+			<div class="logo"><a href="#"><img src="images/logo.png"></a></div>
+			<div class="phone">
+				<div class="rexian">咨询热线：010-82037571</div>
+				<div class="cl"></div>
+				<div class="yuyue"><a href="#">预约体验</a></div>
+			</div>
+			<div class="cl"></div>
+			<div class="nav">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li id="li2" onmouseover="about_us_over()" onmouseout="about_us_out()" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
+						<a id="a1" href="#" style="color: rgb(89, 89, 89);">关于我们</a>
+						<div class="zicaidan" id="zicaidan1" style="display: none;">
+							<ul>
+								<li><a href="#">公司概况</a></li>
+								<li><a href="#">企业文化</a></li>
+								<li><a href="#">联系我们</a></li>
+							</ul>
+						</div>
+					</li>
+					<li id="li3" onmouseover="news_over()" onmouseout="news_out()">
+						<a id="a2" href="#">新闻动态</a>
+						<div class="zicaidan" id="zicaidan2">
+							<ul>
+								<li><a href="#">公司新闻</a></li>
+								<li><a href="#">行业动态</a></li>
+							</ul>
+						</div>
+					</li>
+					<li id="li4" onmouseover="products_over()" onmouseout="products_out()" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
+						<a id="a3" href="#" style="color: rgb(89, 89, 89);">产品中心</a>
+						<div class="zicaidan" id="zicaidan3" style="display: none;">
+							<ul>
+								<li class="chang"><a href="#">在线培训管理系统</a></li>
+								<li class="chang"><a href="#">在线考试系统</a></li>
+								<li class="chang"><a href="#">培训运营系统</a></li>
+								<li class="chang"><a href="#">移动学习系统</a></li>
+								<li class="chang"><a href="#">知识分享系统</a></li>
+								<li class="chang"><a href="#">人才发展系统</a></li>
+								<li class="chang"><a href="#">学习社区系统</a></li>
+								<li class="chang"><a href="#">分布式系统</a></li>
+								<li class="chang"><a href="#">离线学习系统</a></li>
+								<li class="chang"><a href="#">视频同步教学系统</a></li>
+								<li class="chang"><a href="#">实时录制及后期编辑系统</a></li>
+								<li class="chang"><a href="#">快速课件制作工具IStudio</a></li>
+							</ul>
+						</div>
+					</li>
+					<li id="li5" onmouseover="solve_over()" onmouseout="solve_out()" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
+						<a id="a4" href="#" style="color: rgb(89, 89, 89);">解决方案</a>
+						<div class="zicaidan" id="zicaidan4" style="display: none;">
+							<ul>
+								<li><a href="#">集团企业</a></li>
+								<li><a href="#">金融保险</a></li>
+								<li><a href="#">培训运营机构</a></li>
+								<li><a href="#">政府机构</a></li>
+							</ul>
+						</div>
+					</li>
+					<li id="li6" onmouseover="case_over()" onmouseout="case_out()">
+						<a id="a5" href="#">案例分享</a>
+						<div class="zicaidan" id="zicaidan5">
+							<ul>
+								<li><a href="#">案例概览</a></li>
+								<li><a href="#">案例分析</a></li>
+							</ul>
+						</div>
+					</li>
+					<li id="li7" onmouseover="support_over()" onmouseout="support_out()">
+						<a id="a6" href="#">支持与服务</a>
+						<div class="zicaidan" id="zicaidan6">
+							<ul>
+								<li><a href="#">学习服务中心</a></li>
+								<li><a href="#">咨询服务</a></li>
+								<li><a href="#">培训服务</a></li>
+								<li><a href="#">课程服务</a></li>
+								<li><a href="#">运维和托管</a></li>
+								<li><a href="#">系统集成服务</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">合作加盟</a></li>
+				</ul>
+			</div>
+			<div class="cl"></div>
+		</div>
+	</div>
+	<div id="banner">
+		<div class="img1">
+			<ul>
+				<li class="no1" style="display: none;"><a href="#"><img src="images/banner.png"></a></li>
+				<li class="no2" style="display: none;"><a href="#"><img src="images/banner2.jpg"></a></li>
+				<li class="no3" style="display: list-item;"><a href="#"><img src="images/banner3.jpg"></a></li>
+				<li class="no4"><a href="#"><img src="images/banner4.jpg"></a></li>
+			</ul>
+		</div>
+		<div id="button">
+			<div class="left_button"><a href="javascript:;"></a></div>
+			<div class="right_button"><a href="javascript:;"></a></div>
+		</div>
+	</div>	
+
+	<div id="center2">
+			<div class="sort">
+				<div class="top">
+					<ul>
+						<li class="cur">选产品</li>
+						<li class="">看案例</li>
+						<li class="">论培训</li>
+					</ul>
+				</div>
+				<div class="bd">
+					<ul class="ul1" style="display: none;">
+						<li class="cp_1"><a href="#">员工分析系统</a></li>
+						<li class="cp_2"><a href="#">在线考试系统</a></li>
+						<li class="cp_3"><a href="#">在线购物系统</a></li>
+						<li class="cp_4"><a href="#">客户关系管理</a></li>
+						<li class="cp_5"><a href="#">移动平台建设</a></li>
+						<li class="cp_6"><a href="#">效益快速提升</a></li>
+					</ul>
+					<ul class="ul2" style="display: block;">
+						<li class="al_1"><a href="#">中国人寿财险</a></li>
+						<li class="al_2"><a href="#">万达集团</a></li>
+						<li class="al_3"><a href="#">三星手机</a></li>
+						<li class="al_4"><a href="#">华夏银行</a></li>
+						<li class="al_5"><a href="#">中国认证认可协会</a></li>
+						<li class="al_6"><a href="#">中国石油</a></li>
+					</ul>
+				</div>
+				<div class="cl"></div>
+			</div>
+	</div>
+		<div class="cl"></div>
+	<div id="footer">
+		<div class="center3">
+			<ul>
+				<li><a href="#">获取联系方式</a></li>
+				<li><a href="#">加入企业联盟</a></li>
+				<li><a href="#">加入微信</a></li>
+				<li><a href="#">公司产品</a></li>
+				<li><a href="#">版权保护</a></li>
+				<li><a href="#">隐私权</a></li>
+				<li><a href="#" class="xx">联系我们</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

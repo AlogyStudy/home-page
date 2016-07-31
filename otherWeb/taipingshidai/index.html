@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>太平时代首页</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/bsse.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/huxi.js"></script>
+
+	<script type="text/javascript">
+		window.onload = function(){
+			huxi(500,3000);
+
+			$("#lanmu ul li").mouseenter(function() {
+				$(this).addClass("cur").siblings().removeClass("cur");
+			});
+		}
+	</script>
+
+<style id="qb_dict_style" type="text/css">
+	#dict__tip {
+		position: absolute; 
+		visibility: hidden;
+		z-index: 50000; 
+		overflow:visible;
+	}
+	#dict__tip {
+		border: 3px solid #2e9dff;
+		padding: 0 12px 10px 12px;
+		font-size: 12px;
+		min-width:215px; 
+		max-width: 393px;
+		background-color:#ffffff;
+		box-shadow:0px 1px 8px rgba(0,0,0,0.2)
+	}
+	#dict__tip_translate_result {
+		display:block;
+		text-align:left; 
+		border: none; 
+		background: none
+	}
+	#dict__tip_translate_result span {
+		margin:0px;padding:0px;
+		line-height: 22px;
+		font-family:Microsoft YaHei;
+		font-size: 14px;color: #333333
+	}
+	#dict__tip_dict_info {
+		border: none;
+		background: none;
+		position: relative;
+		height: 30px;
+		line-height: 30px;
+		font-family:Microsoft YaHei,Tahoma, NSimsun, Simsun, sans-serif
+	}
+	#dict__tip_dict_info .dict-copyright {
+		color: #999999;
+		position: absolute;
+		left: 0px;
+		top: 0px
+	}
+	#dict__tip_dict_info .dict-link {
+		position: absolute;
+		right: 0px;top: 0px;
+	}
+	#dict__tip_dict_info #dict__tip_translate_link {
+		padding-left: 10px;
+	}
+	#dict__tip_dict_info .dict-link a{
+		color: #0066cc;
+		text-decoration: none;
+	}
+	#dict__tip_dict_info .dict-link a:hover{
+		text-decoration: underline;
+	}
+</style>
+</head>
+
+
+<body>
+	<div id="header">
+		<div class="banxin">
+			<div class="logo">
+				<h3>太平时代俱乐部</h3>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">移民</a></li>
+					<li class="no3"><a href="#">房产</a></li>
+					<li><a href="#">留学</a></li>
+					<li class="nomgr"><a href="#">关于</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="banner">
+		<div id="huxi">
+			<ul class="tuul">
+				<li class="no1 cur" style="display: none;"><a href="#"></a></li>
+				<li class="no2" style="display: none;"><a href="#"></a></li>
+				<li class="no3" style="display: list-item;"><a href="#"></a></li>
+				
+			</ul>
+			<div class="anniu">
+				<span class="leftbut"></span>
+				<span class="rightbut"></span>
+			</div>
+		</div>
+	<div class="banxin">
+		<div id="lanmu">
+			<ul>
+				<li class="">
+					<span><a href="#" class="biaoti">投资移民</a></span>
+					<img src="images/tu1.png">
+				</li>
+				<li class="cur">
+					<span><a href="#"  class="biaoti">投资房产</a></span>
+					<img src="images/tu2.png">
+				</li>
+				<li class="">
+					<span><a href="#"  class="biaoti">投资留学</a></span>
+					<img src="images/tu2.png">
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="heitiao"></div>
+	<div id="footer">
+		<div class="banxin">
+			<div class="footernav">
+				<ul>
+					<li><a href="#">网站地图</a></li>
+					<li><a href="#">法律声明</a></li>
+					<li><a href="#">版权所有</a></li>
+					<li><a href="#">友情链接</a></li>
+					<li><a href="#">在线留言</a></li>
+					<li class="nomg"><a href="#">Email</a></li>
+				</ul>
+			</div>
+			<div class="copyright">
+			    <p>Copyright ©2014 太平时代俱乐部 All rights reserved</p>
+			</div>
+		</div>
+	</div>
+
+</div>
+	
+</body>
+</html>
